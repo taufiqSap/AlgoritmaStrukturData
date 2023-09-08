@@ -41,7 +41,7 @@ KELAS : SIB2C
 
 ![Alt text](image-12.png)
 
-# TUGAS $
+# TUGAS 5
 <h1> OUTPUT </h1>
 
 ![Alt text](image-13.png)
