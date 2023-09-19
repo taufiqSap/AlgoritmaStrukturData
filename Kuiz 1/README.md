@@ -16,3 +16,6 @@ cek_order untuk mengecek seluruh orderan yang di input
 ## FlowChart
 
 ![Alt text](FlowChart.drawio.png)
+
+# FOTO
+![Alt text](<WhatsApp Image 2023-09-19 at 19.10.37.jpg>)
