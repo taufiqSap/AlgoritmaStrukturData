@@ -1,6 +1,6 @@
 public class DLL {
     Film head, tail;
-    HistoryNode historyHead, historyTail;
+    Node historyHead, historyTail;
 
     public DLL() {
         head = null;
