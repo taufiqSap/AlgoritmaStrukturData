@@ -9,11 +9,11 @@ public class GraphMainGeneric {
 
         GraphGeneric<Integer> graph = new GraphGeneric<Integer>(vertices);
         for (int i = 0; i < vertices; i++) {
-            System.out.print("Enter the source: ");
+            System.out.print("Masukkan source: ");
             int source = sc.nextInt();
-            System.out.print("Enter the destination: ");
+            System.out.print("Masukkan destination: ");
             int destination = sc.nextInt();
-            System.out.print("Enter the data: ");
+            System.out.print("Masukkan data: ");
             int data = sc.nextInt();
             graph.addEdge(source, destination, data);
         }

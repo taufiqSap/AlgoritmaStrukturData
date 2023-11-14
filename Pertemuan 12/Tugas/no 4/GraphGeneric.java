@@ -55,12 +55,12 @@ public class GraphGeneric<T> {
                     }
                 }
                 edgeFound = true;
-                System.out.println("Edge removed between " + source + " and " + destination);
+                System.out.println("Edge dihapus sampai " + source + " dan " + destination);
                 break;
             }
         }
         if (!edgeFound) {
-            System.out.println("Edge between " + source + " and " + destination + " doesn't exist");
+            System.out.println("Edge sampai" + source + " dan " + destination + " doesn't exist");
         }
     }
 

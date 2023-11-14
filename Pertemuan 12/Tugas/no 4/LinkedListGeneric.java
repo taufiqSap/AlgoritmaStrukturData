@@ -42,7 +42,7 @@ public class LinkedListGeneric<T> {
         if (isEmpty()) {
             addFirst(item);
         } else if (index < 0 || index > size) {
-            throw new Exception("Index out of bound");
+            throw new Exception("Index diluar batas");
         } else {
             NodeGeneric current = head;
             int i = 0;
@@ -82,16 +82,16 @@ public class LinkedListGeneric<T> {
                 System.out.print(tmp.data + "\t");
                 tmp = tmp.next;
             }
-            System.out.println("\n Succesfully added");
+            System.out.println("\n Berhasil ditambah");
         } else {
-            System.out.println("Linked list is empty");
+            System.out.println("Linked list kosong");
         }
     }
 
     // 2nd lab activity
     public void removeFirst() throws Exception {
         if (isEmpty()) {
-            throw new Exception("Linked list is still empty, cannot remove");
+            throw new Exception("Linked list masih kosong, tidak dapat dihapus");
         } else if (size == 1) {
             removeLast();
         } else {
@@ -103,7 +103,7 @@ public class LinkedListGeneric<T> {
 
     public void removeLast() throws Exception {
         if (isEmpty()) {
-            throw new Exception("Linked list is still empty, cannot remove");
+            throw new Exception("Linked list masih kosong, tidak dapat dihapus");
         } else if (head.next == null) {
             head = null;
             size--;
@@ -146,14 +146,14 @@ public class LinkedListGeneric<T> {
     // 3rd lab activity
     public T getFirst() throws Exception{
         if (isEmpty()) {
-            throw new Exception("Linked list still empty");
+            throw new Exception("Linked list masih kosong");
         }
         return (T) head.data;
     }
 
     public T getLast(int index) throws Exception{
         if (isEmpty()) {
-            throw new Exception("Linked list still empty");
+            throw new Exception("Linked list masih kosong");
         }
         NodeGeneric tmp = head;
         while (tmp.next != null) {
@@ -164,7 +164,7 @@ public class LinkedListGeneric<T> {
 
     public T get(int index) throws Exception {
         if (isEmpty()) {
-            throw new Exception ("Linked list still empty");
+            throw new Exception ("Linked list masihkosong");
         }
         NodeGeneric tmp = head;
         for (int i = 0; i < index; i++) {
